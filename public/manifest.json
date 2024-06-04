@@ -1,0 +1,14 @@
+{
+  "name": "TvWeb",
+  "short_name": "TvWeb",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Tv pet project",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "favicon/svg"
+    }
+  ]
+}
