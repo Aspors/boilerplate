@@ -3,6 +3,7 @@
       "jsx": "react",
       "target": "es2016",
       "module": "commonjs",
+      "allowJs": true,
       "baseUrl": "./",
       "paths": {
         "*": ["./src/*"]
@@ -22,12 +23,8 @@
             }
         }
     ],
-    "include": ["src/**/*"],
     "exclude": 
     ["node_modules", 
-    "build", 
-    "__webpack__/*", 
-    "*.config.ts", 
-    "**/*.test.ts*"
+    "build",
     ]
   }

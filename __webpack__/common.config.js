@@ -132,7 +132,7 @@ module.exports = {
         use: ['sass-loader'],
       },
       {
-        test: /\.(png|jpe?g|gif|svg|webp|ico)$/i,
+        test: /\.(png|jpe?g|gif|svg|webp|ico|mp4)$/i,
         type: 'asset/resource',
         generator: {
           filename: 'assets/img/[hash][ext]',

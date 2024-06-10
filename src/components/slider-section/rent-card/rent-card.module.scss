@@ -1,0 +1,16 @@
+.rent-card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__img{
+        width: 10rem;
+        height: 6rem;
+    }
+    &__name{
+        color: black;
+    }
+    &__descr{
+        color: grey;
+    }
+}
